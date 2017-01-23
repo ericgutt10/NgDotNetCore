@@ -1,9 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'tabs',
   templateUrl: './tabs.component.html'
 })
 export class TabsComponent {
-  constructor() { }
+  @Input() tabList: Array<any>;
+  
+  constructor() { 
+    this.tabList = [];
+  }
 }

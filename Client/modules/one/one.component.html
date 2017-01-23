@@ -1,4 +1,17 @@
 <div>
-    <tabs></tabs>
+    <div class="row">
+        <div class="col-xs-12">
+            <span *ngIf="!hideTab0" class="badge badge-success" (click)="addTab(0); hideTab0 = true;">Request</span>
+            <span *ngIf="!hideTab1" class="badge badge-primary" (click)="addTab(1); hideTab1 = true;">Person</span>
+            <span *ngIf="!hideTab2" class="badge badge-info" (click)="addTab(2); hideTab2 = true;">Address</span>
+            <span *ngIf="!hideTab3" class="badge badge-warning" (click)="addTab(3); hideTab3 = true;">Task</span>
+            <span *ngIf="!hideTab4" class="badge badge-danger" (click)="addTab(4); hideTab4 = true;">Place</span>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-12">
+            <tabs [tabList]="tabs"></tabs>
+        </div>
+    </div>
 </div>
-    
