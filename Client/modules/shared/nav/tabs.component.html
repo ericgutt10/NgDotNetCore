@@ -1,6 +1,7 @@
 <ngb-tabset #t="ngbTabset">
     <ngb-tab *ngFor="let tab of tabList; let i = index" [title]="tab.title" [id]="tab.title">
         <template ngbTabContent>
+            <breadcrumbs></breadcrumbs>
             <p>{{tab.content}}</p>
         </template>
     </ngb-tab>

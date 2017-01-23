@@ -13,8 +13,8 @@ import { ErrorMessageComponent } from './forms/error-message.component';
 import { ErrorSummaryComponent } from './forms/error-summary.component';
 import { FormControlService } from './forms/form-control.service';
 
-import { TabsComponent } from './nav/main/tabs.component';
-import { BreadcrumbsComponent } from './nav/main/breadcrumbs.component';
+import { TabsComponent } from './nav/tabs.component';
+import { BreadcrumbsComponent } from './nav/breadcrumbs.component';
 import { HeaderComponent } from './nav/header.component';
 import { FooterComponent } from './nav/footer.component';
 import { IconBarComponent } from './nav/iconBar.component';
