@@ -13,6 +13,8 @@ import { ErrorMessageComponent } from './forms/error-message.component';
 import { ErrorSummaryComponent } from './forms/error-summary.component';
 import { FormControlService } from './forms/form-control.service';
 
+import { TabsComponent } from './nav/main/tabs.component';
+import { BreadcrumbsComponent } from './nav/main/breadcrumbs.component';
 import { HeaderComponent } from './nav/header.component';
 import { FooterComponent } from './nav/footer.component';
 import { IconBarComponent } from './nav/iconBar.component';
@@ -44,6 +46,8 @@ import { UppercasePipe } from './pipes/uppercase.pipe';
         ErrorSummaryComponent,
         FooterComponent,
         IconBarComponent,
+        TabsComponent,
+        BreadcrumbsComponent,
         HeaderComponent,
         PageHeadingComponent,
         UppercasePipe
@@ -61,6 +65,8 @@ import { UppercasePipe } from './pipes/uppercase.pipe';
         ErrorSummaryComponent,
         ErrorMessageComponent,
         FooterComponent,
+        TabsComponent,
+        BreadcrumbsComponent,
         HeaderComponent,
         IconBarComponent,
         PageHeadingComponent,
